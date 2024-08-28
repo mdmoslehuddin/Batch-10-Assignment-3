@@ -52,17 +52,15 @@
 <body class="font-Poppins">
   <!-- header section start -->
   <!-- class="max-w-screen-xl mx-auto px-16 lg:px-28" -->
-  <header >
-    <nav class="w-11/12 mx-auto">
+  <!-- class="w-11/12 mx-auto" -->
+  <header  class="max-w-screen-xl mx-auto px-16 lg:px-28" >
+    <nav >
       <div class="navbar bg-base-100">
-        
-        <div class="navbar-center">
-
+        <div class="flex-1">
           <i class="fa-sharp fa-solid fa-arrow-right-long -rotate-45"></i>
-
+  
           <a class="btn btn-ghost text-xl">Rinterio</a>
         </div>
-
         <div class="navbar-center  lg:flex">
           <ul class="menu menu-horizontal px-1">
              <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Home</a></li>
@@ -72,9 +70,7 @@
               <li><a>Contact Us</a></li>
           </ul>
         </div>
-
-
-        <div class="navbar-end">
+        <div class="lg:flex">
           <button class="btn btn-ghost btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -88,27 +84,50 @@
                 stroke-width="2"
                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
-          </button>
-
-          <button>
-            
-          </button>
-         
+  
         </div>
+        <div class="flex-none">
+          <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <div class="indicator">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+  
+        <button class="bg-gradient-to-r from-cyan-500 to-blue-500 px-5 py-3 rounded-lg">
+          Book Consult
+          <i class="fa-solid fa-arrow-right-long -rotate-45"></i>
+        </button>
       </div>
      
       <section class="items-center">
-        <div>
+        <div >
           <img src="./images/banner.png" alt="">
         </div>
-        <div>
-          <h1 class="text-6xl font-semibold leading-tight">A barn house of this design has a striking appearance</h1>
-          <p class="text-xl font-semibold my-5">Located in a small village in Hertfordshire, this house has been designed around the conceptual style of a modern barn. Primary consideration when designing this home was given to the way the building interacts with its surroundings.</p>
+        <div class="text-center">
+          <h1 class="text-6xl font-semibold leading-tight">A barn house of this design has a <br> striking appearance</h1>
+          <p class="text-xl font-semibold my-5">Located in a small village in Hertfordshire, this house has been designed around the conceptual <br> style of a modern barn. Primary consideration when designing this home was given to the <br>  way the building interacts with its surroundings.</p>
           
           <button class="bg-gradient-to-r from-cyan-500 to-blue-500 px-5 py-3 rounded-lg">
             View Details 
             <i class="fa-solid fa-arrow-right-long -rotate-45"></i>
           </button>
+          
         </div>
       
        </section>
@@ -120,10 +139,70 @@
     
   <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
 
-   
+   <!-- design thoughtful section start -->
+
+   <section>
+    <img src="./images/Vector.png" alt="">
+    <div class="flex pt-10 mb-20">
+      <!-- Text content -->
+       <div>
+        <button>
+          <i class="fa-solid fa-arrow-right-long "></i>
+          About Us 
+        </button>
+        <h1 class="text-5xl md:text-3xl">We design thoughtful, liveable spaces</h1>
+        <p> The barn house captivates with its blend of rustic charm and 
+          modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      <!-- Commercial content -->
+      <div class="flex">
+       <div>
+        <img src="./images/commercial.png" alt="">
+       </div>
+
+       <div>
+        <h3>Commercial</h3>
+        <p>The barn house captivates with its blend 
+          of rustic charm and modern.</p>
+       </div>
+      </div>
+
+      <!-- Residential content -->
+      <div class="flex">
+        <div>
+         <img src="./images/residential.png" alt="">
+        </div>
+ 
+        <div>
+         <h3> Residential</h3>
+         <p> The barn house captivates with its blend 
+          of rustic charm and modern.</p>
+        </div>
+       </div>
+
+        </div>
+      <!-- Image content -->
+      <div>
+        <img src="./images/Rectangle.png" alt="">
+      </div>
+
+    </div>
+   </section>
+
+ <!-- works process section start -->
+
    <section>
 
-
+    <div class="text-center">
+      <button>
+        <i class="fa-solid fa-arrow-right-long "></i>
+        How we works 
+        
+      </button>
+      <h1 class="text-6xl font-semibold leading-tight">Our Works Process</h1>
+      <p class="text-xl font-semibold my-5">Defining your organization's work processes can be a great way to learn more about how the company's employees create value.</p>
+      
+    </div>
+    <div></div>
    </section>
 
   </main>
